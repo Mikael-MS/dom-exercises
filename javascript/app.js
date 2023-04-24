@@ -50,7 +50,7 @@ function addUser() {
     } else if (yearOfBirth >= year) {
         document.getElementById('error-tree').innerHTML = 'Must be less than: ' + year;
     } else if (yearOfBirth <= maxYearOfBirth) {
-        document.getElementById('error-tree').innerHTML = 'Maximum birth year: ' + maxYearOfBirth;
+        document.getElementById('error-tree').innerHTML = 'Maximum birth year: ' + maxYearOfBirthsim ;
     } else {
         document.getElementById('error-tree').innerHTML = '';
     }
